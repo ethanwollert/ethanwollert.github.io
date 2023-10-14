@@ -3,32 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ethan's website</title>
+		<link rel="icon" href="favicon.png"><!--Favicon-->
+	<style>
+	#fltrt {
+		float: right;
+	}	
+	#table2 {
+      border: 1px solid black;
+	}
+	</style>
 </head>
 <body>
-	<section>
-		<h2>Introduction</h2>
+	<div>
+	<img id="fltrt" src="DogSuit.png" width="200" height="200" alt="Image of a dog in a suit"> <!--Image of dog in a suit-->
+		<h3>Introduction</h3>
 		<p>Name: Ethan Wollert</p>
 		<p>Occupation: Student</p>
-		<p><a target="_blank" href="https://www.facebook.com/ethan.wollert.7/">Facebook</a></p>
+		<p><a target="_blank" href="https://www.facebook.com/ethan.wollert.7/">Facebook</a></p><!--Clickable text that opens in another page-->
 		<p><a target="_blank" href="https://www.uwgb.edu/">University of Wisconsin Green Bay</a></p>
-	</section>
-	<section>
-		<h2>About Me</h2>
-		<p>I'm a freshman student at University of Wisconsin-Green Bay. </p>
-	</section>
-	<section>
-		<h2>Interests</h2>
-		<ol type="a">
-			<li>Learning</li>
-			<li>Working out</li>
-			<li>Video Games</li>
-		</ol>
-		<h2>Education</h2>
+	</div>
+	<div>
+		<h3>About Me</h3>
+		<table><!--Start of the borderless table-->
+			<td>I'm a freshman student at University of Wisconsin-Green Bay. </td>
+		</table><!--End of the borderless table-->
+	</div>
+	<div>
+		<h3>Interests</h3>
+		<ol type="a"><!--Start of the ordered list-->
+			<li>Learning &#129504;</li>
+			<li>Working out &#128170;</li>
+			<li>Video Games &#127918;</li>
+		</ol><!--End of the ordered list-->
+	</div>
+	<div>
+		<h3>Education</h3>
+		<table id="table2"><!--Start of the bordered tabe and unordered list--> 
 		<ul style="list-style-type:square">
-			<li>Sheboygan Falls High School</li>
-			<li>University of Wisconsin-Green Bay</li>
+			<tr>
+			<td><li>Sheboygan Falls High School</li></td>
+			</tr>
+			<tr>
+			<td><li>University of Wisconsin-Green Bay</li></td>
+			</tr>
 		</ul>
-		
-	</section>
+		</table><!--End of the bordered table and unordered list-->
+	</div>
+	<footer>
+	<p>&copy; 2023 Ethan Wollert Website</p>
+	</footer>
 </body>
 </html>
